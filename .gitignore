@@ -50,3 +50,26 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+
+# Output directory
+out/
+
+# Certs files
+x509.*.genkey
+signing_key.*
+trusted_key.*
+
+# Automatically generated files
+kernel/scripts/basic/fixdep
+kernel/scripts/kconfig/conf
+kernel/scripts/kconfig/zconf.hash.c
+kernel/scripts/kconfig/zconf.lex.c
+kernel/scripts/kconfig/zconf.tab.c
+kernel/.config*
+kernel/source
+modules.builtin
+kernel/arch/*/include/generated/
+kernel/include/config/
+kernel/include/generated/
+kernel/scripts/basic/bin2c
+kernel/scripts/kconfig/mconf
