@@ -54,3 +54,9 @@ x509.*.genkey
 *_key.pem
 *_key.crt
 *_key.key
+.config
+kernel/scripts/basic/fixdep
+kernel/scripts/kconfig/conf
+kernel/scripts/kconfig/zconf.hash.c
+kernel/scripts/kconfig/zconf.lex.c
+kernel/scripts/kconfig/zconf.tab.c
