@@ -50,3 +50,7 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+x509.*.genkey
+*_key.pem
+*_key.crt
+*_key.key
